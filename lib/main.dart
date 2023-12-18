@@ -57,12 +57,12 @@ class MyHomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     border: Border.all(
-                      color: Color.fromARGB(255, 236, 33, 33).withOpacity(0.5),
+                      color: Color.fromARGB(255, 255, 22, 247).withOpacity(0.5),
                       width: 2,
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Color.fromARGB(255, 236, 33, 33).withOpacity(0.5),
+                        color: Color.fromARGB(255, 255, 22, 247).withOpacity(0.5),
                         spreadRadius: 5,
                         blurRadius: 7,
                         offset: Offset(0, 3),
@@ -122,7 +122,7 @@ class MyHomePage extends StatelessWidget {
                             },
                             style: ElevatedButton.styleFrom(
                               minimumSize: Size(150, 50),
-                              primary: Color.fromARGB(255, 82, 215, 20),
+                              primary: Color.fromARGB(255, 192, 246, 69),
                             ),
                             child: Text('Get Recipe'),
                           ),
@@ -174,19 +174,19 @@ class MyHomePage extends StatelessWidget {
                   child: Row(
                     children: [
                       RecipeCard(
-                        imageUrl: 'https://cdn1-production-images-kly.akamaized.net/uBuE5OD3B9pUTVNJd81cB819z7Y=/0x194:5616x3359/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3048436/original/030475400_1581499756-shutterstock_413580649.jpg',
+                        imageUrl: 'https://i.pinimg.com/564x/45/6c/b3/456cb3b8e683d3c144e49623a882a222.jpg',
                         dishName: 'Spaghetti Bolognese',
                         time: '30-45 Minutes',
-                        difficulty: 'Medium',
-                        chefName: 'Maria',
+                        difficulty: 'Easy',
+                        chefName: 'Eva Maria',
                       ),
                       SizedBox(width: 20),
                       RecipeCard(
-                        imageUrl: 'https://img.taste.com.au/d4JNfJUH/taste/2019/07/classic-beef-stew-151457-2.jpg',
+                        imageUrl: 'https://i.pinimg.com/564x/2f/8f/de/2f8fde9cb523601f0517f2d222cb91ab.jpg',
                         dishName: 'Classic Beef Stew',
                         time: '45-60 Minutes',
-                        difficulty: 'Easy',
-                        chefName: 'Niki',
+                        difficulty: 'Medium',
+                        chefName: 'Sri Rafiana',
                       ),
                     ],
                   ),
@@ -224,19 +224,19 @@ class MyHomePage extends StatelessWidget {
                   child: Row(
                     children: [
                       AvatarRecipeCard(
-                        imageUrl: 'https://img.wattpad.com/cover/337063381-256-k969823.jpg',
+                        imageUrl: 'https://i.pinimg.com/564x/0c/81/5e/0c815ed9c541404d461659f1a013755c.jpg',
                         chefName: 'I can Tooth',
                         time: '124',
                         difficulty: '41391',
-                        dishName: 'John',
+                        dishName: 'Eva Maria',
                       ),
                       SizedBox(width: 10),
                       AvatarRecipeCard(
-                        imageUrl: 'https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/navia/image.png?strip=all&quality=100',
+                        imageUrl: 'https://i.pinimg.com/564x/51/a2/66/51a2667e7aaf0354b285f3473da443c1.jpg',
                         chefName: 'You Pink Sun',
                         time: '98',
                         difficulty: '7323',
-                        dishName: 'Emily',
+                        dishName: 'Sri Rafiana',
                       ),
                     ],
                   ),
