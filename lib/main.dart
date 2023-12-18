@@ -31,14 +31,14 @@ class MyHomePage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Welcome Abghi,',
+                          'Hello, Bagus',
                           style: TextStyle(
-                            fontSize: 24,
+                            fontSize: 25,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
                         Text(
-                          'What do you want to cook today?',
+                          'What do you want to cook today, gus?',
                           style: TextStyle(
                             fontSize: 16,
                             color: const Color.fromARGB(255, 129, 129, 129),
@@ -47,7 +47,7 @@ class MyHomePage extends StatelessWidget {
                       ],
                     ),
                     AvatarFrame(
-                      imageUrl: 'https://www.1999.co.jp/itbig65/10650183.jpg',
+                      imageUrl: 'https://portal.usu.ac.id/photos/211402035',
                     ),
                   ],
                 ),
@@ -57,12 +57,12 @@ class MyHomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     border: Border.all(
-                      color: const Color.fromARGB(255, 218, 218, 218).withOpacity(0.5),
+                      color: Color.fromARGB(255, 236, 33, 33).withOpacity(0.5),
                       width: 2,
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: const Color.fromARGB(255, 218, 218, 218).withOpacity(0.5),
+                        color: Color.fromARGB(255, 236, 33, 33).withOpacity(0.5),
                         spreadRadius: 5,
                         blurRadius: 7,
                         offset: Offset(0, 3),
@@ -92,7 +92,7 @@ class MyHomePage extends StatelessWidget {
                           Padding(
                             padding: const EdgeInsets.only(left: 8.0),
                             child: AvatarFrame(
-                              imageUrl: 'https://pbs.twimg.com/media/ElL8ph0U0AAXq5W.jpg',
+                              imageUrl: 'https://i.pinimg.com/564x/d3/7d/58/d37d58dfe45e210cb1588e00aaf6a38e.jpg',
                             ),
                           ),
                         ],
@@ -102,14 +102,14 @@ class MyHomePage extends StatelessWidget {
                         'Get Your Personalized Recipe ',
                         style: TextStyle(
                           fontSize: 16,
-                          color: const Color.fromARGB(255, 129, 129, 129),
+                          color: const Color.fromARGB(255, 0, 0, 0),
                         ),
                       ),
                       Text(
                         'Recommendation in 4 steps',
                         style: TextStyle(
                           fontSize: 16,
-                          color: const Color.fromARGB(255, 129, 129, 129),
+                          color: const Color.fromARGB(255, 0, 0, 0),
                         ),
                       ),
                       SizedBox(height: 20),
@@ -122,7 +122,7 @@ class MyHomePage extends StatelessWidget {
                             },
                             style: ElevatedButton.styleFrom(
                               minimumSize: Size(150, 50),
-                              primary: Color.fromARGB(255, 255, 193, 60),
+                              primary: Color.fromARGB(255, 82, 215, 20),
                             ),
                             child: Text('Get Recipe'),
                           ),
