@@ -2,5 +2,5 @@
 
 Implementasi UI dalam UAS Pemorgraman Mobile
 
-![A POS application](src/main/ubah1.png)
+![A POS application](src/ubah1.png)
 
